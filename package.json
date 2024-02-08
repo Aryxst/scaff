@@ -1,18 +1,19 @@
 {
-  "name": "scaff",
-  "module": "index.ts",
-  "scripts": {
-    "start": "bun index.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "type": "module",
-  "dependencies": {
-    "@inquirer/prompts": "^3.3.2",
-    "chalk": "^5.3.0"
-  }
+ "name": "scaff",
+ "module": "./lib/scaff.ts",
+ "main": "./lib/scaff.ts",
+ "scripts": {
+  "start": "bun ./lib/scaff.ts"
+ },
+ "devDependencies": {
+  "@types/bun": "latest"
+ },
+ "peerDependencies": {
+  "typescript": "^5.0.0"
+ },
+ "type": "module",
+ "dependencies": {
+  "@inquirer/prompts": "^3.3.2",
+  "chalk": "^5.3.0"
+ }
 }

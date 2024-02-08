@@ -4,9 +4,9 @@ interface TemplateConfig {
  description?: string;
  script?: string;
 }
-export default [
+export const mappings = [
  {
   ref: '.vscode',
-  name: 'VSCode Basic Settings',
+  name: 'VSCode Basic Settings', // Example
  },
 ] as TemplateConfig[];
