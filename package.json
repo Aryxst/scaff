@@ -1,9 +1,9 @@
 {
  "name": "scaff",
- "module": "./lib/scaff.ts",
- "main": "./lib/scaff.ts",
+ "module": "./src/scaff.ts",
+ "main": "./src/scaff.ts",
  "scripts": {
-  "start": "bun ./lib/scaff.ts"
+  "start": "bun ./src/scaff.ts"
  },
  "devDependencies": {
   "@types/bun": "latest"
