@@ -8,5 +8,6 @@ export const mappings = [
  {
   ref: '.vscode',
   name: 'VSCode Basic Settings', // Example
+  description: 'some basic vsc config',
  },
 ] as TemplateConfig[];
