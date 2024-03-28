@@ -13,3 +13,4 @@ export const mappings = [
   ref: 'example.zsh',
  },
 ] as TemplateConfig[];
+export const promptPackageJson = false;
